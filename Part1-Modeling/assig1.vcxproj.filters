@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="basicsource">
+      <UniqueIdentifier>{568b7a6c-9adb-4a1d-8cc2-90358020b70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects-student">
+      <UniqueIdentifier>{c8e6d1b6-0048-4e6b-ab7a-5836a0ea995a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{2c22db6b-8204-4f5f-ac39-ab2133e34ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{086582fa-6f72-42f3-bd9a-21e1e25e5c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects-standard">
+      <UniqueIdentifier>{94f3c9ec-12db-4e1c-80cf-181e50e9bd13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basicsource\constants.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\main.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\prefix.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\scene.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\utility.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\composite1.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\composite2.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\opencube.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\opensphere.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\opentorus.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\treasurebox.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="support\camera.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\face.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\fog.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\fragmentshader.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\light.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\matrix.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\object3d.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\platform.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\shaderprogram.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\skybox.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\snd.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\texture.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\vectr.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\vertex.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\vertexshader.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\viewfrustum.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\cube.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\extrusion.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\sphere.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\sweep.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\torus.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basicsource\main.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="basicsource\prefix.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="basicsource\scene.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="basicsource\utility.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\composite1.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\composite2.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\opencube.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\opensphere.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\opentorus.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\treasurebox.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="support\camera.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\face.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\fog.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\fragmentshader.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\light.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\matrix.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\object3d.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\platform.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\shaderprogram.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\skybox.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\snd.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\texture.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\vectr.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\vertex.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\vertexshader.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\viewfrustum.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\cube.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\extrusion.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\sphere.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\sweep.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\torus.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\armpath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\armprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\bodypath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\bodyprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\browpath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\diamondprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\earpath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\earprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\facepath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\faceprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\framepath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\framepath2.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\framepath3.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\frameprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\handleprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\hoofpath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\hoofprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\lidpath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\lidprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\medalpath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\milkprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\onepantsprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\pantspath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\quadprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\shieldprofile.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\swordpath.txt">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\tailpath.txt">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

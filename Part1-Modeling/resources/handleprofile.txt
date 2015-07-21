@@ -1,0 +1,29 @@
+// =========================================================================================
+// KXC354 - Computer Graphics & Animation, 2012
+// Assignment 1 & 2
+// 3D Engine Code
+// =========================================================================================
+//
+// Edited by Evan
+//
+// handleprofile.txt
+//
+// sweep profile for the handle of sword
+//
+//	radius		y-coordinate
+
+	0.00001,	0.6
+	
+	0.1,		0.6		//duplicate to make sharp edge
+	0.1,		0.6
+	
+	0.3,		0.5		//duplicate to make sharp edge
+	0.3,		0.5
+	
+	0.3,		-0.5	//duplicate to make sharp edge
+	0.3,		-0.5
+	
+	0.1,		-0.6	//duplicate to make sharp edge
+	0.1,		-0.6
+	
+	0.00001,	-0.6

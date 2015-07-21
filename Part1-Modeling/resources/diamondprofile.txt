@@ -1,0 +1,39 @@
+// =========================================================================================
+// KXC354 - Computer Graphics & Animation, 2012
+// Assignment 1 & 2
+// 3D Engine Code
+// =========================================================================================
+//
+// Edited by Evan
+//
+// diamondprofile.txt
+//
+// sweep profile for a diamond with the density of 8
+//
+//	radius		y-coordinate
+
+	0.00001,	1.2
+	
+	//draw table-board
+	0.5,		1.2
+	0.5,		1.2		//duplicate for better lighting
+	
+	0.8,		1.2
+	0.8,		1.2		//duplicate for better lighting
+	
+	1,			1.2
+	1,			1.2		//duplicate to make sharp edge
+	
+	1.2,		1
+	1.2,		1		//duplicate for better lighting
+	
+	
+	//draw girdle thickness 
+	1.5,		0.68
+	1.5,		0.68	//duplicate to make sharp edge
+	
+	1.5,		0.60
+	1.5,		0.60	//duplicate to make sharp edge
+	
+	//draw pavilion	
+	0.00001,	-1

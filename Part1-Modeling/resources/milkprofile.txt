@@ -1,0 +1,50 @@
+// =========================================================================================
+// KXC354 - Computer Graphics & Animation, 2012
+// Assignment 1 & 2
+// 3D Engine Code
+// =========================================================================================
+//
+// Edited by Evan
+//
+// milkprofile.txt
+//
+// sweep profile for a milk bottle
+//
+// Note: although it sounds like the bottle showed in the lecture, the vertexes is completely different
+//
+//	radius		y-coordinate
+
+	0.00001,	0.78
+	
+	0.125,		0.78	//duplicate to make sharp edge
+	0.125,		0.78
+	
+	0.125,		0.655
+	0.115,		0.645
+	0.115,		0.635
+	0.13,		0.635
+	0.13,		0.619
+	0.105,		0.619
+	
+	0.105,		0.58	//duplicate to make sharp edge
+	0.105,		0.58
+	
+	0.20,		0.428
+	0.252,		0.228
+	0.254,		-0.122
+	0.254,		-0.124
+	0.254,		-0.448
+	0.24,		-0.456
+	0.24,		-0.464
+	
+	0.254,		-0.472	//duplicate to make sharp edge
+	0.254,		-0.472
+	
+	0.254,		-0.576	//duplicate to make sharp edge
+	0.254,		-0.576
+	
+	0.226,		-0.628
+	0.174,		-0.658
+	0.17,		-0.658
+	0.134,		-0.648
+	0.00001,	-0.648

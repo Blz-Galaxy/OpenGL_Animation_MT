@@ -1,0 +1,25 @@
+// =========================================================================================
+// KXC354 - Computer Graphics & Animation, 2012
+// Assignment 1 & 2
+// 3D Engine Code
+// =========================================================================================
+//
+// Edited by Evan
+//
+// framepath3.txt
+//
+// a 2D profile for a square extrusion
+//
+//	radius		y-coordinate
+
+	0.125,	0.125	//duplicate to make sharp edge
+	0.125,	0.125
+	
+	-0.125, 0.125	//duplicate to make sharp edge
+	-0.125, 0.125
+	
+	-0.125, -0.125	//duplicate to make sharp edge
+	-0.125, -0.125
+	
+	0.125, -0.125	//duplicate to make sharp edge
+	0.125, -0.125

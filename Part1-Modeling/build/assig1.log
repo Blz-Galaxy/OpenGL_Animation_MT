@@ -1,0 +1,99 @@
+﻿生成启动时间为 2015/7/21 23:42:26。
+     1>项目“D:\Workspace\GitHub\OpenGL_Animation_MT\Part1-Modeling\assig1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“build\assig1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\mySDK\kxc354-otherfiles\sdkroot-include" /I"C:\Program Files (x86)\QuickTime SDK\CIncludes" /I.\support /I".\objects-student" /I".\objects-standard" /I.\basicsource /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"prefix.h" /Fp"build\assig1.pch" /Fo"build\\" /Fd"build\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt basicsource\prefix.cpp
+         prefix.cpp
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\ConditionalMacros.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\Multiprocessing.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\AssertMacros.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files (x86)\quicktime sdk\cincludes\ConditionalMacros.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\QuickTime SDK\CIncludes\TargetConditionals.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\mySDK\kxc354-otherfiles\sdkroot-include" /I"C:\Program Files (x86)\QuickTime SDK\CIncludes" /I.\support /I".\objects-student" /I".\objects-standard" /I.\basicsource /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"prefix.h" /Fp"build\assig1.pch" /Fo"build\\" /Fd"build\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt basicsource\main.cpp basicsource\scene.cpp basicsource\utility.cpp "objects-student\composite1.cpp" "objects-student\composite2.cpp" "objects-student\opencube.cpp" "objects-student\opensphere.cpp" "objects-student\opentorus.cpp" "objects-student\treasurebox.cpp" support\camera.cpp support\face.cpp support\fog.cpp support\fragmentshader.cpp support\light.cpp support\matrix.cpp support\object3d.cpp support\platform.cpp support\shaderprogram.cpp support\skybox.cpp support\snd.cpp support\texture.cpp support\vectr.cpp support\vertex.cpp support\vertexshader.cpp support\viewfrustum.cpp "objects-standard\cube.cpp" "objects-standard\extrusion.cpp" "objects-standard\sphere.cpp" "objects-standard\sweep.cpp" "objects-standard\torus.cpp"
+         main.cpp
+         scene.cpp
+         utility.cpp
+         composite1.cpp
+         composite2.cpp
+         opencube.cpp
+         opensphere.cpp
+         opentorus.cpp
+         treasurebox.cpp
+         camera.cpp
+         face.cpp
+         fog.cpp
+         fragmentshader.cpp
+         light.cpp
+         matrix.cpp
+         object3d.cpp
+         platform.cpp
+         shaderprogram.cpp
+         skybox.cpp
+         snd.cpp
+         正在生成代码...
+         正在编译...
+         texture.cpp
+         vectr.cpp
+         vertex.cpp
+         vertexshader.cpp
+         viewfrustum.cpp
+         cube.cpp
+         extrusion.cpp
+         sphere.cpp
+         sweep.cpp
+         torus.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"build\assig1.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\QuickTime SDK\Libraries" qtmlClient.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"build\assig1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\GitHub\OpenGL_Animation_MT\Part1-Modeling\build\assig1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"build\assig1.lib" /MACHINE:X86 build\main.obj
+         build\prefix.obj
+         build\scene.obj
+         build\utility.obj
+         build\composite1.obj
+         build\composite2.obj
+         build\opencube.obj
+         build\opensphere.obj
+         build\opentorus.obj
+         build\treasurebox.obj
+         build\camera.obj
+         build\face.obj
+         build\fog.obj
+         build\fragmentshader.obj
+         build\light.obj
+         build\matrix.obj
+         build\object3d.obj
+         build\platform.obj
+         build\shaderprogram.obj
+         build\skybox.obj
+         build\snd.obj
+         build\texture.obj
+         build\vectr.obj
+         build\vertex.obj
+         build\vertexshader.obj
+         build\viewfrustum.obj
+         build\cube.obj
+         build\extrusion.obj
+         build\sphere.obj
+         build\sweep.obj
+         build\torus.obj
+         assig1.vcxproj -> D:\Workspace\GitHub\OpenGL_Animation_MT\Part1-Modeling\build\assig1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"build\assig1.exe;#1" /manifest build\assig1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“build\assig1.unsuccessfulbuild”。
+         正在对“build\assig1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Workspace\GitHub\OpenGL_Animation_MT\Part1-Modeling\assig1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.30

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{241E4B13-F5BF-4F2C-855B-9B6814D30AE4}</ProjectGuid>
+    <RootNamespace>assig1</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">build\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">build\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">build\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\mySDK\kxc354-otherfiles\sdkroot-lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\QuickTime SDK\CIncludes;.\support;.\objects-student;.\objects-standard;.\basicsource;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\QuickTime SDK\Libraries\qtmlClient.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\mySDK\kxc354-otherfiles\sdkroot-include;C:\Program Files (x86)\QuickTime SDK\CIncludes;.\support;.\objects-student;.\objects-standard;.\basicsource;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>prefix.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>qtmlClient.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\QuickTime SDK\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="basicsource\constants.h" />
+    <ClInclude Include="basicsource\main.h" />
+    <ClInclude Include="basicsource\prefix.h" />
+    <ClInclude Include="basicsource\scene.h" />
+    <ClInclude Include="basicsource\utility.h" />
+    <ClInclude Include="objects-student\composite1.h" />
+    <ClInclude Include="objects-student\composite2.h" />
+    <ClInclude Include="objects-student\opencube.h" />
+    <ClInclude Include="objects-student\opensphere.h" />
+    <ClInclude Include="objects-student\opentorus.h" />
+    <ClInclude Include="objects-student\treasurebox.h" />
+    <ClInclude Include="support\camera.h" />
+    <ClInclude Include="support\face.h" />
+    <ClInclude Include="support\fog.h" />
+    <ClInclude Include="support\fragmentshader.h" />
+    <ClInclude Include="support\light.h" />
+    <ClInclude Include="support\matrix.h" />
+    <ClInclude Include="support\object3d.h" />
+    <ClInclude Include="support\platform.h" />
+    <ClInclude Include="support\shaderprogram.h" />
+    <ClInclude Include="support\skybox.h" />
+    <ClInclude Include="support\snd.h" />
+    <ClInclude Include="support\texture.h" />
+    <ClInclude Include="support\vectr.h" />
+    <ClInclude Include="support\vertex.h" />
+    <ClInclude Include="support\vertexshader.h" />
+    <ClInclude Include="support\viewfrustum.h" />
+    <ClInclude Include="objects-standard\cube.h" />
+    <ClInclude Include="objects-standard\extrusion.h" />
+    <ClInclude Include="objects-standard\sphere.h" />
+    <ClInclude Include="objects-standard\sweep.h" />
+    <ClInclude Include="objects-standard\torus.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basicsource\main.cpp" />
+    <ClCompile Include="basicsource\prefix.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="basicsource\scene.cpp" />
+    <ClCompile Include="basicsource\utility.cpp" />
+    <ClCompile Include="objects-student\composite1.cpp" />
+    <ClCompile Include="objects-student\composite2.cpp" />
+    <ClCompile Include="objects-student\opencube.cpp" />
+    <ClCompile Include="objects-student\opensphere.cpp" />
+    <ClCompile Include="objects-student\opentorus.cpp" />
+    <ClCompile Include="objects-student\treasurebox.cpp" />
+    <ClCompile Include="support\camera.cpp" />
+    <ClCompile Include="support\face.cpp" />
+    <ClCompile Include="support\fog.cpp" />
+    <ClCompile Include="support\fragmentshader.cpp" />
+    <ClCompile Include="support\light.cpp" />
+    <ClCompile Include="support\matrix.cpp" />
+    <ClCompile Include="support\object3d.cpp" />
+    <ClCompile Include="support\platform.cpp" />
+    <ClCompile Include="support\shaderprogram.cpp" />
+    <ClCompile Include="support\skybox.cpp" />
+    <ClCompile Include="support\snd.cpp" />
+    <ClCompile Include="support\texture.cpp" />
+    <ClCompile Include="support\vectr.cpp" />
+    <ClCompile Include="support\vertex.cpp" />
+    <ClCompile Include="support\vertexshader.cpp" />
+    <ClCompile Include="support\viewfrustum.cpp" />
+    <ClCompile Include="objects-standard\cube.cpp" />
+    <ClCompile Include="objects-standard\extrusion.cpp" />
+    <ClCompile Include="objects-standard\sphere.cpp" />
+    <ClCompile Include="objects-standard\sweep.cpp" />
+    <ClCompile Include="objects-standard\torus.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\armpath.txt" />
+    <None Include="resources\armprofile.txt" />
+    <None Include="resources\bodypath.txt" />
+    <None Include="resources\bodyprofile.txt" />
+    <None Include="resources\browpath.txt" />
+    <None Include="resources\diamondprofile.txt" />
+    <None Include="resources\earpath.txt" />
+    <None Include="resources\earprofile.txt" />
+    <None Include="resources\facepath.txt" />
+    <None Include="resources\faceprofile.txt" />
+    <None Include="resources\framepath.txt" />
+    <None Include="resources\framepath2.txt" />
+    <None Include="resources\framepath3.txt" />
+    <None Include="resources\frameprofile.txt" />
+    <None Include="resources\handleprofile.txt" />
+    <None Include="resources\hoofpath.txt" />
+    <None Include="resources\hoofprofile.txt" />
+    <None Include="resources\lidpath.txt" />
+    <None Include="resources\lidprofile.txt" />
+    <None Include="resources\medalpath.txt" />
+    <None Include="resources\milkprofile.txt" />
+    <None Include="resources\onepantsprofile.txt" />
+    <None Include="resources\pantspath.txt" />
+    <None Include="resources\quadprofile.txt" />
+    <None Include="resources\shieldprofile.txt" />
+    <None Include="resources\swordpath.txt" />
+    <None Include="resources\tailpath.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

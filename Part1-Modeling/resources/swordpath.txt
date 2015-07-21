@@ -1,0 +1,29 @@
+// =========================================================================================
+// KXC354 - Computer Graphics & Animation, 2012
+// Assignment 1 & 2
+// 3D Engine Code
+// =========================================================================================
+//
+// Edited by Evan
+//
+// swordpath.txt
+
+
+m -3
+s .0001 .0001, p
+p					//duplicate for better lighting
+m 0.5
+s 3000 1500, p
+m 0.5
+s 2 2, p
+p					//duplicate for better lighting
+m 1.4
+s 0.58 0.58, p
+m 1.2
+s 0.58 0.58, p
+m 1
+s 0.58 0.58, p
+p					//duplicate for better lighting
+m 0.5, p
+p					//duplicate for better lighting
+s .0001 .0001, p

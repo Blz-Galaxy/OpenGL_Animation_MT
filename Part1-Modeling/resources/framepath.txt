@@ -1,0 +1,29 @@
+// =========================================================================================
+// KXC354 - Computer Graphics & Animation, 2012
+// Assignment 1 & 2
+// 3D Engine Code
+// =========================================================================================
+//
+// Edited by Evan
+//
+// framepath.txt
+
+
+m -1
+y 90 0
+m -1.45
+
+s 0.0001 0.0001, p
+s 10000 10000, p
+
+m 2.9, p
+y -90 0, p
+m 2, p
+y -90 0, p
+m 2.9, p
+y -90 0, p
+m 2, p
+y -90 0, p
+m 0.15			//avoid face overlaping each other and displaying incorrectly
+
+s 0.0001 0.0001, p
